@@ -21,6 +21,7 @@ Then you can use the `environment.yaml` file to install the necessary packages t
 ```sh
 conda env create -f environment.yaml
 conda activate private_detector
+pip install --upgrade typing-extensions
 ```
 
 Once that's set up, you can run the inference script. Simply replace the sample `.jpg` file paths below with your own
